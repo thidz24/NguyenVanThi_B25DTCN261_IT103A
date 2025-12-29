@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+    <table border="0">
+        <tr>
+            <td>Họ và Tên:</td>
+            <td><input type="text" name="fullname" required></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh: </td>
+            <td><input type="date" name="birthdate" required></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="gender" value="male" required> Nam
+                <input type="radio" name="gender" value="female" required> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><textarea type="text" name="address" required></textarea></td>
+        </tr>
+        <tr>
+            <td>Vai trò trong nhóm:</td>
+            <td><select name="role" required>
+                <option value="leader">Nhóm trưởng</option>
+                <option value="member">Nhóm viên</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Sở thích:</td>
+            <td><input type="text" name="hobbies" required></td>
+        </tr>
+        <tr>
+            <td>Kỹ năng:</td>
+            <td><textarea type="text" name="skills" required></textarea></td>
+        </tr>
+        <tr>
+            <td>Thời gian rảnh:</td>
+            <td><input type="radio" name="free_time" value="morning"> Buổi sáng
+                <input type="radio" name="free_time" value="afternoon"> Buổi chiều
+                <input type="radio" name="free_time" value="evening"> Buổi tối
+            </td>
+        </tr>
+        <tr>
+            <td>Lý do tham gia nhóm:</td>
+            <td><textarea type="text" name="reason" required></textarea></td>
+        </tr>
+        <tr>
+            <td>Màu yêu thích:</td>
+            <td><input type="color" name="favorite_color" required></td>
+        </tr>
+        <tr>
+            <td>Đăng ký nhân bản:</td>
+            <td><input type="checkbox" name="subscribe" value="yes">có</td>
+        </tr>
+        <tr>
+            <td>Nhận thông báo qua email:</td>
+            <td><input type="radio" name="notification" value="yes"> Email
+                <input type="radio" name="notification" value="no"> SMS 
+            </td>
+        </tr>
+        <tr>
+            <td><button type="submit">Đăng ký thành viên</button></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
