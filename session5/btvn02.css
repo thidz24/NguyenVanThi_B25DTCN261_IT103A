@@ -1,0 +1,22 @@
+.footer-container {
+    background-color: #7fbaf5; 
+    color: white;             
+    padding: 30px 10px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace; 
+    line-height: 1.6;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.footer-container a {
+    color: blue;              
+    text-decoration: underline;
+}
+
+.social-links {
+    word-spacing: 10px;       
+}

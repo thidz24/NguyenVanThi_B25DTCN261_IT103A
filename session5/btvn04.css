@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9; 
+    font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-block {
+    margin-bottom: 50px;
+}
+
+.title-blue {
+    color: #1e90ff; 
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.text-content {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+strong {
+    font-weight: bold;
+}

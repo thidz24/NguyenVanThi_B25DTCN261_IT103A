@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.service-section {
+    background-color: #f4f4f9;
+    padding: 40px;
+    text-align: left;
+}
+.service-title {
+    color: #1e90ff;          
+    text-align: center;       
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.service-subtitle {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.service-list {
+    list-style-type: none;    
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;           
+}
+
+.service-list li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.bold-text {
+    font-weight: bold;
+}

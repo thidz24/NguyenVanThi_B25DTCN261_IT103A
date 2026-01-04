@@ -1,0 +1,46 @@
+body {
+background-color: #ffffff; 
+    color: #8cacb5;          
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: #176196; 
+    color: white;
+    text-align: center;
+}
+
+.main-header2 {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.section-title {
+    color: #00b4d8; 
+    font-size: 20px;
+}
+
+.highligh {
+    color: #00b4d8;
+    font-style: italic;
+}
+
+.warning {
+    color: #9d0612; 
+    font-style: italic;
+    font-size: 14px;
+}
+
+.booking-link {
+    color: #073d7a;
+}
+
+.section {
+    color: #8cacb5; 
+}
+
+.section:hover {
+    color: #0072be;
+    cursor: pointer; 
+    /* Biến con trỏ thành hình bàn tay */
+}

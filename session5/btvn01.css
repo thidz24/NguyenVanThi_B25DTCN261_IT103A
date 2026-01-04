@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    background-color: #1eff29; 
+    color: black;          
+    padding: 60px 20px;      
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.main-title {
+    margin: 0;
+    font-size: 3.5rem;      
+    font-weight: 700;        
+    letter-spacing: -1px;      
+}
+.slogan {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-style: italic;      
+    font-weight: 400;
+}
