@@ -1,0 +1,21 @@
+.background {
+    display: flex;
+    gap: 20px;
+    background-color: #f4f8f6;
+}
+.box {
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+}
+.box h3 {
+    color: #29d0ff;
+}
+.box  {
+    position: relative;
+    left: 300px;
+}

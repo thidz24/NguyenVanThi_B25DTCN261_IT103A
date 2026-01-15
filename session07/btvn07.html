@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biểu mẫu Feedback</title>
+  <link rel="stylesheet" href="btvn07.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Biểu Mẫu Feedback Phòng<br />Khám Nha Khoa</h1>
+
+    <form class="form">
+      <div class="field">
+        <label for="name">Họ và tên</label>
+        <input id="name" type="text" placeholder="Nhập họ tên" />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="example@gmail.com" />
+      </div>
+
+      <div class="field">
+        <label for="service">Dịch vụ đã sử dụng</label>
+        <select id="service">
+          <option>Khám răng tổng quát</option>
+          <option>Tẩy trắng răng</option>
+          <option>Niềng răng</option>
+          <option>Nhổ răng</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="rating">Mức độ hài lòng</label>
+        <select id="rating">
+          <option>Rất hài lòng</option>
+          <option>Hài lòng</option>
+          <option>Bình thường</option>
+          <option>Chưa hài lòng</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Nội dung phản hồi</label>
+        <textarea id="message" rows="6" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea>
+      </div>
+
+      <button type="submit" class="btn">Gửi feedback</button>
+    </form>
+  </div>
+</body>
+</html>
