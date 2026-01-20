@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff8f0;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 30px;
+}
+.tilte h2 {
+    color: #E76F51;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Playfair Display;
+}
+.bar {
+    display: flex;
+    gap: 30px;
+}
+.link a {
+    text-decoration: none;
+    color: black;
+    font-family: Quicksand;
+}
+.button button {
+    border: 0px solid #ffffff;
+    background-color: #E76F51;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: Quicksand;
+}
+.img {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/anh/duongray.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 490px;
+}
+.content h1 {
+    font-size: 50px;
+    font-family: Playfair Display;
+}
+.content p {
+    font-size: 15px;
+    font-family: Quicksand;
+}
+.button1 button {
+    border: #ffffff;
+    background-color: #E76F51;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 25px;
+    font-family: Quicksand;
+}
+.tilte1 {
+    margin: 30px;
+    font-size: 35px;
+    font-family: Playfair Display;
+    color: #e86f51;
+}
+.food {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.food1 {
+    background-color: #ffffff;
+    width: 260px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    align-items: start;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3) ;
+    transition: 0.3s;
+}
+.food1:hover {
+    transform: translateY(-5px);
+}
+.food1 img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.name, .money, .detail {
+    margin: 0px 20px;
+}
+.name {
+    font-size: 25px;
+    font-family: Playfair Display;
+}
+.money {
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 600;
+    color: #e76f51;
+}
+.detail {
+    color: gray;
+    text-align: left;
+    line-height: 20px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0px 200px;
+    margin-bottom: 50px;
+}
+.list div {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3) ;
+}
+.name1, .money1 {
+    font-family: Quicksand;
+    font-weight: 600;
+}
+.money1 {
+    color: #e76f51;
+}
+.footer  {
+    background-color: #3d3030;
+    padding: 30px 10px ;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-content: stretch;
+    border-bottom: 0.1px solid gray;
+    padding: 30px;
+    margin: 20px 190px;
+}
+.information div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.tilte2 {
+    font-size: 20px;
+    color: #e76f51;
+}
+.review {
+    color: white;
+    text-align: left;
+}
