@@ -1,0 +1,128 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #f4f6f8;
+    padding: 20px;
+}
+.course-card {
+    max-width: 380px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    margin: auto;
+}
+.card-header {
+    height: 180px;
+    background: linear-gradient(135deg, #6a7cff, #7b5cd6);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.card-header i {
+    font-size: 48px;
+}
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-body {
+    padding: 16px;
+}
+.category {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+.rating i {
+    color: #fbbf24;
+}
+.rating span {
+    font-weight: 600;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #eee;
+}
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4f46e5;
+}
+.btn {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #1d4ed8;
+}
+@media (max-width: 768px) {
+    .course-card {
+    max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .card-header {
+    height: 150px;
+    }
+    .title {
+    font-size: 18px;
+    }
+    .price {
+    font-size: 18px;
+    }
+}
