@@ -1,0 +1,105 @@
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    line-height: 1.6; 
+    color: #fff; 
+}
+
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Lss5/Ảnh/image.png') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 { 
+    font-size: 3rem; 
+    margin-bottom: 10px; 
+}
+
+
+.gallery { 
+    padding: 50px 10%; 
+    background: #fdfdfd; 
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px;
+}
+
+.item {
+    flex: 1 1 250px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item img { 
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    transition: 0.3s; 
+}
+
+.item h3 {
+    position: absolute; 
+    bottom: 10px; 
+    width: 100%;
+    text-align: center; font-size: 14px; 
+    background: rgba(0,0,0,0.6);
+}
+
+.item:hover img { 
+    transform: scale(1.1); 
+} 
+
+.booking { 
+    background: #990000; 
+    padding: 60px 10%; 
+    text-align: center; 
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.form input, .form select {
+    flex: 1 1 300px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    flex: 0 0 250px;
+    padding: 15px;
+    background: #fff;
+    color: #990000;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.footer { background: #000; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 12px; 
+    color: #888; 
+}
