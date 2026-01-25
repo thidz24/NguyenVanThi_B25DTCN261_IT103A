@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 100px;
+    background-color: black;
+    position:relative;
+}
+
+header h3{
+    color:white;
+    font-size: larger;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    opacity:0.7;
+    padding:20px;
+}
+
+.title{
+    background-color: #0d6efd;
+    color:white;
+    text-align: center;
+    padding:20px 10px;
+}
+
+.title p{
+    margin-bottom: 15px;
+}
+
+.title button{
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+
+.card-menu{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    gap:50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    border:1px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding:40px 20px;
+    width:25%;
+}
+
+.fa-laptop{
+    color:blue;
+}
+
+.fa-user{
+    color:green;
+}
+
+.fa-briefcase{
+    color:red;
+}
+
+.card i{
+    margin-bottom: 50px;
+    font-size:30px;
+}
+
+.form{
+    width:100%;
+    padding:20px;
+}
+
+.form-register{
+    max-width: 600px;
+    height:auto;
+    margin: 0 auto;
+    background: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-register h1{
+    text-align: center;
+    padding:10px;
+}
+
+.form-card{
+    padding:15px;
+}
+
+.form-card input{
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.confirm button{
+    width:100%;
+    padding:5px;
+    border-radius: 5px;
+    background-color: #198754;
+    color:white;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color:white;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #0d6efd;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .card-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 60%;
+    }
+}
